@@ -1,0 +1,124 @@
+<style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body{
+      overflow: hidden;
+    }
+
+    .split {
+      text-align: center;
+      background-color: #FFCD9E;
+      height: 380px;
+      width: 50%;      
+    }
+        
+    .Left {
+      float: left;
+      padding-top: 15px;
+    }
+
+    .Right {
+      float: right;
+      padding-top: 15px;
+    }
+
+    #top1 {
+      width: 562px;
+      color: #282828;
+      font-family: Inter;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      margin-left: 14.3%;
+    }
+
+    #top2 {
+      display: flex;
+
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 100px;
+      flex-shrink: 0;
+      width: 71%;
+
+      color: #484848;
+
+      font-size: 21px;
+      text-align: left;
+      padding-top: 30px;
+    }
+
+  .top3{
+    padding-left:102px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
+    display: flex;
+  }
+#oneline{
+    padding-left:102px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 344px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+  .frm{
+    display: flex;
+    width: 350px;
+    height: 32px;
+    padding-left: 100px;
+    padding-top: 20px;
+  
+  }
+
+  #btn{
+    display: flex;
+    margin-left: 20px;
+    padding: 5px;
+    width: 150px;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    background-color: #484848;
+    cursor: pointer;
+  }
+    .spliter {
+      width: 100%;
+      height: 300px;
+      flex-shrink: 0;
+      background: var(--The-Black, #282828);
+     
+    }
+
+    .Leftfooter {
+      float: left;
+      padding-top: 40px;
+      padding-left: 120px;
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 160%;
+      list-style-type: none;
+      cursor: pointer;
+    }
+
+    .Rightfooter {
+      float: right;
+      padding-top: 50px;
+      padding-right: 120px;
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 160%;
+      list-style-type: none;
+      text-align: right;
+      cursor: pointer;      
+    }
+  </style>
